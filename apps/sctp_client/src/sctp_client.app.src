@@ -1,0 +1,12 @@
+{application, sctp_client,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sctp_client_app, []}},
+  {env, []}
+ ]}.
